@@ -1,33 +1,7 @@
 import { motion } from 'framer-motion';
-import { Code, 
-  BarChart3, 
-  Palette, 
-  Megaphone,
-  Cpu,
-  Database,
-  Cloud,
-  MessageCircle,
-  Shield,
-  Zap,
-  Camera,
-  Music,
-  Video,
-  BookOpen,
-  Briefcase,
-  Globe,
-  Mail,
-  Phone,
-  MapPin,
-  Heart,
-  Star,
-  Users,
-  Settings,
-  Home,
-  Search,
-  Bell,
-  User,
-  Lock,
-  Unlock,
+import { Code, BarChart3, Palette, Megaphone, Cpu, Database, Cloud, MessageCircle, Shield, Zap, Camera, Music,
+  Video, BookOpen, Briefcase, Globe, Mail, Phone, MapPin, Heart, Star, Users, Settings, Home, Search,
+  Bell, User, Lock, Unlock,
   Eye,
   EyeOff,
   Download,
@@ -67,7 +41,7 @@ interface SkillCardProps {
   index: number;
 }
 
-// Create a mapping object for all possible icons
+//mapping object 
 const iconMap: Record<string, LucideIcon> = {
   Code,
   BarChart3,
@@ -151,7 +125,7 @@ const SkillCard: React.FC<SkillCardProps> = ({ skill, index }) => {
   };
 
   const color = colorClasses[skill.color];
-  const IconComponent = iconMap[skill.icon] || HelpCircle; // Fallback icon
+  const IconComponent = iconMap[skill.icon] || HelpCircle; 
 
   return (
     <motion.div

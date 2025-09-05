@@ -5,6 +5,7 @@ import Skills from './components/Skills';
 import Dashboard from './components/Dashboard';
 import Footer from './components/Footer';
 import { useDarkMode } from './hooks/useDarkMode';
+import ChatBot from './components/ChatBot';
 
 function App() {
   const [darkMode, toggleDarkMode] = useDarkMode();
@@ -18,6 +19,7 @@ function App() {
         <Skills />
         <Dashboard />
       </main>
+     <ChatBot/>
       <Footer />
     </div>
   );

@@ -34,7 +34,10 @@ const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
           </motion.span>
         </div>
         
-        <nav className="hidden md:flex space-x-8">
+       
+        <div className="flex items-center space-x-4">
+
+           <nav className="hidden md:flex space-x-8">
           {['home', 'mentors', 'skills', 'dashboard'].map((item) => (
             <motion.a
               key={item}
@@ -52,7 +55,6 @@ const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
           ))}
         </nav>
         
-        <div className="flex items-center space-x-4">
           <ThemeToggle darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
           <motion.button 
             whileHover={{ scale: 1.05 }}

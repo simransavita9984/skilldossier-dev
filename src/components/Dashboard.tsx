@@ -14,7 +14,11 @@ const Dashboard: React.FC = () => {
     purple: {
       bg: 'bg-purple-100 dark:bg-purple-900',
       text: 'text-purple-600 dark:text-purple-400'
-    }
+    },
+     yellow: {
+      bg: 'bg-yellow-100 dark:bg-yellow-900',
+      text: 'text-yellow-800 dark:text-yellow-200',
+    },
   };
 
   return (

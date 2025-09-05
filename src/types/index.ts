@@ -7,6 +7,9 @@ export interface Mentor {
   skills: string[];
   image: string;
   color: 'blue' | 'green' | 'purple' | 'yellow';
+   backgroundImage?: string; 
+     rating?: number; 
+  location?: string;
 }
 
 export interface Skill {
@@ -24,7 +27,7 @@ export interface Connection {
   initials: string;
   name: string;
   status: string;
-  color: 'blue' | 'green' | 'purple';
+  color: 'blue' | 'green' | 'purple'| "yellow";
 }
 
 export interface Progress {
