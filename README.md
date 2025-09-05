@@ -3,10 +3,17 @@
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![TailwindCSS](https://img.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Framer Motion](https://img.shields.io/badge/Framer%20Motion-black?style=for-the-badge&logo=framer&logoColor=white)
 
 **SkillDossier** is a career growth and mentorship platform that connects learners with expert mentors. The platform embodies **guidance, skill development, and future readiness** through a minimalist, responsive, and learner-focused design.
+
+---
+
+## 🚀 Live Demo
+
+### **[👉 Click Here to View Live Demo](https://skilldossier-dev.vercel.app/)**
+
 
 ---
 
@@ -27,18 +34,9 @@
 
 ---
 
-## 🚀 Live Demo
-
-### **[👉 Click Here to View Live Demo](https://skilldossier-dev.vercel.app/)**
-
-
----
-
 ## 💻 Tech Stack
 
 - **Frontend:** React (Vite)
 - **Language:** TypeScript
 - **Styling:** Tailwind CSS
-- **Animations:** Framer Motion
-- **Icons:** Lucide React
 
